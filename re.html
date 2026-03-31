@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X PPLG 2 - CLASS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Bebas+Neue&family=DM+Serif+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!-- default style -->
+    <style>
+        body{
+            margin: 0;
+        }
+        :root{
+            --blue: #6495ed;
+            --blue1: #2f3c74;
+            --blue2: #90b4f5;
+        }
+        a{
+            text-decoration: none;
+            color: #000000;
+            font-family: "inter", sans-serif;
+        }
+    </style>
+    <!-- header style -->
+    <style>
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background: #ffffffb2;
+            backdrop-filter: blur(10px);
+            z-index: 1;
+        }
+        .h-left{
+            margin: 10px 20px;
+        }
+        .h-right{
+            margin: 10px 20px;
+        }
+        .h-logoxpllg2{
+            font-family: "jost", sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            color: var(--blue);
+        }
+        .h-content{
+            margin: 0 10px;
+            border-radius: 10px;
+            padding: 6px 15px;
+            font-size: 14px;
+            color: var(--blue);
+            transition: 0.3s all;
+        }
+        .h-content:hover{
+            color: var(--blue1);
+        }
+        .h-content:active{
+            color: var(--blue);
+            transition: 0.1s all;
+        }
+    </style>
+    <!-- main1 style -->
+    <style>
+        .xpplg2welcome{
+            margin-top: 63px;
+            margin-bottom: 0;
+            background: url(bg1.png);
+            background-size: cover;
+            height: 20rem;
+            display: block;
+            align-content: center;
+            justify-items: center;
+            position: relative;
+        }
+        .welcometoxpplg2{
+            color: #ffffff;
+            font-family: "bbh sans bartle";
+            cursor: default;
+            text-align: center;
+            animation: 1s animateonscrollidhan ease-out;
+        }
+        @keyframes animateonscrollidhan{
+            0% {filter: blur(5px); margin-top: -10px;}
+            100% {filter: blur(0);}
+        }
+        .arrowbottomxpplg2{
+            position: absolute;
+            display: flex;
+            bottom: 0;
+            animation: 1s infinite arrowxpplg2 ease-out;
+        }
+        .thingstitle{
+            font-family: "zalando sans expanded", sans-serif;
+            font-size: 40px;
+            text-align: center;
+            font-weight: 900;
+            color: var(--blue);
+        }
+        @keyframes arrowxpplg2{
+            0% {bottom: 5px; filter: blur(4px);}
+            100% {bottom: -10px;}
+        }
+        .content2xpplg2{
+            height: 260px;
+            width: 100%;
+            position: relative;
+        }
+        .smkpict{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="h-left">
+            <a href="beranda.html" class="h-logoxpllg2">X PPLG 2</a>
+        </div>
+        <div class="h-right">
+            <a href="about.html" class="h-content">About</a>
+            <a href="members.html" class="h-content">Members</a>
+        </div>
+    </header>
+    <!-- main content1 -->
+    <div class="xpplg2welcome">
+        <h1 class="welcometoxpplg2">Welcome To X PPLG 2</h1>
+        <img class="smkpict" src="smk mahardhika1.png">
+        <span class="arrowbottomxpplg2"><svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="60px" fill="#e3e3e3"><path d="M480-360 280-560h400L480-360Z"/></svg></span>
+    </div>
+    <!-- main content2 -->
+    <div class="xpplg2things">
+        <h1 class="thingstitle">Things.</h1>
+        <div class="content2xpplg2">
+            <div class="cntn2xpplg-left">
+                <img class="smkpict" src="smk mahardhika1.png">
+            </div>
+            <div class="cntn2xpplg-right"></div>
+        </div>
+    </div>
+</body>
+</html>
