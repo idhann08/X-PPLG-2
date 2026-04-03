@@ -607,6 +607,9 @@
                 font-size: 34px;
                 letter-spacing: -1.5px;
             }
+            .logotext{
+                display: none;
+            }
         }
 
         /* sect 2 styles */
