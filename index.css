@@ -31,7 +31,7 @@
             padding: 16px;
             position: fixed;
             width: 100%;
-            background: #ffffff8f;
+            background: #ffffff5e;
             backdrop-filter: blur(30px);
             border-bottom: 0.2px solid #ededed67;
             z-index: 999;
@@ -549,7 +549,8 @@
         }
         @media (max-width: 500px) {
             .Section1XPPLG2{
-                height: 60vh;
+                height: 40vh;
+                margin: 0;
             }
             .sect1pattern{
                 background-size: 30px 30px;
@@ -582,6 +583,7 @@
             .xpplg2buttonscrolltocontent{
                 transform: scale(0.8);
                 margin: 0;
+                margin-top: 10px;
             }
             .xpplg2buttonscrolltocontent:hover{
                 transform: translateY(-2px) scale(0.8);
@@ -604,7 +606,6 @@
             .s1-text1{
                 font-size: 34px;
                 letter-spacing: -1.5px;
-                transform: translateY(-10px);
             }
         }
 
