@@ -52,7 +52,10 @@
         .logotext{
             display: flex;
             align-items: center;
-            font-size: 26px
+            font-size: 26px;
+            background: linear-gradient(to left, #9f49ea, #2057E0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         .h-center{
             display: flex;
@@ -180,7 +183,7 @@
             position: absolute;
             width: 500px;
             height: 500px;
-            background: radial-gradient(circle, #2057E0a8, transparent);
+            background: radial-gradient(circle, #2057E0, transparent);
             filter: blur(100px);
             top: -100px;
             left: -100px;
@@ -192,7 +195,7 @@
             position: absolute;
             width: 500px;
             height: 500px;
-            background: radial-gradient(circle, #8020e07b, transparent);
+            background: radial-gradient(circle, #d020e0, transparent);
             filter: blur(100px);
             bottom: -100px;
             right: -100px;
@@ -581,12 +584,7 @@
                 filter: blur(40px);
             }
             .xpplg2buttonscrolltocontent{
-                transform: scale(0.8);
-                margin: 0;
-                margin-top: 10px;
-            }
-            .xpplg2buttonscrolltocontent:hover{
-                transform: translateY(-2px) scale(0.8);
+                display: none;
             }
              .xpplg2ilustrationimglaptop{
                 display: none;
@@ -607,8 +605,14 @@
                 font-size: 34px;
                 letter-spacing: -1.5px;
             }
+            .hr-xpplg2menu{
+                margin-right: 14px;
+            }
+            .hl-logoxpplg2{
+                margin-left: -10px;
+            }
             .logotext{
-                display: none;
+                font-size: 30px;
             }
         }
 
